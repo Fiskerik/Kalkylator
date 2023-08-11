@@ -47,11 +47,17 @@ label {
     margin-bottom: 0.5em;
 }
 
-input, textarea, #destination_details, #destinations_container, button{
+input, textarea, #destination_details,  button{
     display: block;
     width: 100%;
     margin-bottom: 1em;
     border: 1px solid #666;
     padding: 10px; 
     box-sizing: border-box;
+}
+
+.card{
+    padding: 20px;
+    background-color: #efefef;
+    margin-bottom: 20px;
 }
