@@ -13,9 +13,56 @@
 </head>
 
 <body>
+    <header>
+        <h1>Vacation wish list</h1>
+        <p>Found exciting places to travel to? Fill in the form and save them for later!</p>
+    </header> 
+    <main> 
+    <div class="topcontainer">
+        <form method="post" action="#" id="destination_details">
+            <label for="destination">Destination</label>
+        	<input type="text" id="destination" placeholder="Enter destination name" required>
+            
+            <label for="location">Location</label>
+        	<input type="text" id="location" placeholder="Where is it located?" required>
+            
+            <label for="photo">Photo</label>
+        	<input type="url"  id="photo" placeholder="Add URL of the photo if you have one">
+            
+            <label for="description">Description</label>
+        	<textarea id="description" placeholder="Describe the destination"></textarea>
+          
+            <button type="submit">Add to wishlist</button>
+        
+        </form>
 
+
+    </div>
+
+    <article>
+        <h2 id="title">Enter Destination details</h2>
+        <div id="destinations_container">
+            <div class="card">
+                <img src="images/signpost.jpg">
+                <div class="card-body">
+                    <h3>Destination name</h3>
+                    <h4>Location</h4>
+                    <p class="card-text">Destination description</p>
+                    <button id="remove">Remove</button>
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </article>
     <!-- Our JavaScript -->
+</main> 
     <script src="script.js"></script>
+
 </body>
 
 </html>
